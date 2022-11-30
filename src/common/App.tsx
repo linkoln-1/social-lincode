@@ -1,10 +1,11 @@
 import React, {FC} from 'react';
+import HomePage from "../pages/HomePage";
 
 
 const App: FC = () => {
   return (
     <div>
-      hello world
+      <HomePage />
     </div>
   );
 }

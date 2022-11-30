@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  .HeaderFix {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #222222;
+
+    .HeaderLogo {
+      width: 10%;
+      color: #fff;
+      text-align: center;
+      font-size: 21px;
+    }
+
+    .HeaderSearch {
+      padding: 20px;
+    }
+  }
+}
+.HeaderSection {
+  margin: 80px auto;
+  width: 45%;
+  background-color: #222222;
+  box-shadow: 0px 0px 11px 4px;
+
+  p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    border: 1px solid black;
+    color: #fff;
+  }
+}
